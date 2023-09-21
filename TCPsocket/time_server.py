@@ -12,5 +12,5 @@ while True:
     print("Connection requested from", addr)
     if client:
         time.sleep(1)
-        client.send(time.ctime(time, time()).encode())
+        client.send(time.ctime(time.time()).encode())
     #client.close()
